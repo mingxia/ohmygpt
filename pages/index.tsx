@@ -142,13 +142,13 @@ const Home: NextPage = () => {
             织锦
           </span>
         </a> ｜ 
+        <span className="opacity-50">基于：</span>
         <a
           className="flex items-center justify-center gap-2"
           href="https://github.com/noobnooc/ohmygpt"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="opacity-50">基于：</span>
           <span
             className={classNames(spaceGrotesk.className)}
             style={{ color: client.appThemeColor }}
