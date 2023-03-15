@@ -71,7 +71,7 @@ const Home: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center p-5 text-center">
         {client.appLogo ? (
-          <img className="w-20 mt-20 h-20 rounded-2xl" src={client.appLogo} />
+          <img className="w-20 mt-10 h-20 rounded-2xl" src={client.appLogo} />
         ) : undefined}
         <h1
           className={classNames(
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
           )}
         >
           <span
-            className="text-blue-600"
+            className="text-red-600"
             style={{
               color: client.appThemeColor,
             }}
